@@ -59,6 +59,7 @@ fn main() {
         .blocklist_type("iterator")
         .blocklist_type("type_")
         .blocklist_type("rep")
+        .blocklist_type("__hashtable")
         .blocklist_item("std::value")
         .blocklist_item(".*__max")
         .blocklist_item(".*__min")
